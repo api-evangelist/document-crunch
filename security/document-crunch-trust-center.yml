@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://www.documentcrunch.com/security
+url: https://trust.documentcrunch.com/
+security_page: https://www.documentcrunch.com/security
+certifications:
+- SOC 2 Type II
+controls:
+- encryption_at_rest: AES-256 across datastores and S3 buckets; keys via AWS KMS with HSMs, AWS Secrets Manager / Parameter Store
+- encryption_in_transit: TLS 1.2 or higher
+- sso: Single Sign-On (SSO) available for customers who require it
+evidence:
+- source: https://www.documentcrunch.com/security
+  keywords:
+  - soc 2 type ii
+  - aes 256
+  - tls 1.2
+  - trust center
+- source: https://trust.documentcrunch.com/
+  keywords:
+  - trust center

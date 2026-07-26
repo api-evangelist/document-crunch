@@ -1,21 +1,48 @@
 aid: document-crunch
 name: Document Crunch
-description: 'Document Crunch is a company surfaced as a portfolio company of fifth-wall and added to
-  the API Evangelist network as a stub for enrichment. Sector: construction-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Document Crunch is an AI risk intelligence platform for the construction
+  industry. Its construction-specific AI, CrunchAI, reads contracts, subcontracts,
+  specifications, and project documents to surface risky clauses, obligations, and
+  flow-downs with cited sources, and its Project Assist capability automates document
+  reviews, drafts submittals and RFIs, and answers document-grounded questions across
+  the project lifecycle from pursuit through closeout. The platform is used by general
+  contractors, subcontractors, and specialty trades to track risk, align teams on
+  standards, and act on contractual exposure. Headquartered in Alpharetta, Georgia,
+  the company is backed by Fifth Wall. This API Evangelist profile is an enriched
+  company lead; Document Crunch does not publish a public developer API, SDKs, or
+  API documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/document-crunch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - fifth-wall
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-enriched-no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.documentcrunch.com/wp-content/uploads/2026/05/2026-04-Document-Crunch-Trimble-Interim-Logo-White-1.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Construction Tech
+- Construction
+- Contract Management
+- Risk Intelligence
+- Artificial Intelligence
+- Document Analysis
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.documentcrunch.com/
+- type: Blog
+  url: https://www.documentcrunch.com/blog
+- type: TrustCenter
+  url: security/document-crunch-trust-center.yml
+- type: Compliance
+  url: https://www.documentcrunch.com/security
+- type: DomainSecurity
+  url: security/document-crunch-domain-security.yml
+- type: TermsOfService
+  url: https://www.documentcrunch.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.documentcrunch.com/privacy-notice
+- type: SignUp
+  url: https://www.documentcrunch.com/demo
+- type: Login
+  url: https://app.documentcrunch.com/login/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
